@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Portal Login</title>
+    <link rel="stylesheet" href="custom_styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-with-logo">
+            <img src="gov_profile.jpg" alt="Government Profile" style ="width: 100px">
+            <h1>Scholarship Portal</h1>
+        </div>
+        
+        <form id="loginForm" action="main.html">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="social-login">
+            <span>Or Login with:</span>
+            <a href="#" class="google-login"><img src="google.png" alt="Login with Google" style ="width: 300px"></a>
+        </div>
+
+        <p class="register-link">Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
